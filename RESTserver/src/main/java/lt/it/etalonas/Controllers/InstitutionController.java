@@ -58,6 +58,9 @@ public class InstitutionController {
         institutionServices.delete(id);
     }
 
-
+    @RequestMapping(path = "/find/{name}",method = RequestMethod.GET)
+    public List<Institucija> findByName(@PathVariable String name){
+        return institutionServices.findbyName(name);
+    }
 
 }

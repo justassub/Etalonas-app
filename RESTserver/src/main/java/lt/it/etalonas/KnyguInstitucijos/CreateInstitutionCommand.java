@@ -5,6 +5,33 @@ public class CreateInstitutionCommand {
     private String image;
     private String tipas;
     private String kategorija;
+    private String archyvoUzdarumas;
+    private String kokiuKnygu;
+    private String kamSkirta;
+
+    public String getArchyvoUzdarumas() {
+        return archyvoUzdarumas;
+    }
+
+    public void setArchyvoUzdarumas(String archyvoUzdarumas) {
+        this.archyvoUzdarumas = archyvoUzdarumas;
+    }
+
+    public String getKokiuKnygu() {
+        return kokiuKnygu;
+    }
+
+    public void setKokiuKnygu(String kokiuKnygu) {
+        this.kokiuKnygu = kokiuKnygu;
+    }
+
+    public String getKamSkirta() {
+        return kamSkirta;
+    }
+
+    public void setKamSkirta(String kamSkirta) {
+        this.kamSkirta = kamSkirta;
+    }
 
     public String getName() {
         return name;

@@ -14,6 +14,8 @@ export var NavigationComponent=()=>{
         <li><NavLink to="/institucija">Institucijos</NavLink></li>
         <li><NavLink to="/addinstitucija/">Add Institution</NavLink></li>
         <li><NavLink to="/books">All Books</NavLink></li>
+        <li><NavLink to="/addBook">Add Book</NavLink></li>
+        
        
         </ul>
          

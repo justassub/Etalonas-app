@@ -60,10 +60,18 @@ public class InstitutionServices {
         editInstitucija.setName(cic.getName());
         editInstitucija.setTipas(cic.getTipas());
         editInstitucija.setKategorija(cic.getKategorija());
+        editInstitucija.setArchyvoUzdarumas(cic.getArchyvoUzdarumas());
+        editInstitucija.setKamSkirta(cic.getArchyvoUzdarumas());
+        editInstitucija.setKokiuKnygu(cic.getKokiuKnygu());
         institutionRepository.save(editInstitucija);
     }
     @Transactional
     public  void delete(long id){
         institutionRepository.delete(id);
+    }
+
+    @Transactional
+    public  List<Institucija> findbyName(String name){
+        return institutionRepository.findAllByName(name);
     }
 }

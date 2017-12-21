@@ -1,0 +1,13 @@
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/Repositories/InstitutionRepository.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/Controllers/BooksController.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/AppConfig.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/Knygos/CreateBookCommand.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/Repositories/BooksRepository.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/App.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/Services/BooksServices.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/KnyguInstitucijos/CreateInstitutionCommand.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/Services/InstitutionServices.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/Knygos/Books.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/PostProcessor.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/Controllers/InstitutionController.java
+/home/justas/Desktop/sablonasKontrolinio/Etalonas-App/RESTserver/src/main/java/lt/it/etalonas/KnyguInstitucijos/Institucija.java

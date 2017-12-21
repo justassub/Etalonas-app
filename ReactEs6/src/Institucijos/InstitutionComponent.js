@@ -20,7 +20,8 @@ render(){
     
     return (
        <div className="col-xs-12 col-sm-4 text-center">       
-                    <div className="thumbnail">                                  
+                    <div className="thumbnail">    
+                    <img src={this.props.image}/>                              
                     <p>{this.props.id}</p>
                     <p>{this.props.name}</p>  
                     <p>{this.props.tipas}</p>                                       
