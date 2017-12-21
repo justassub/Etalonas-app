@@ -1,6 +1,9 @@
 package lt.it.etalonas.KnyguInstitucijos;
 
+import lt.it.etalonas.Knygos.Books;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Institucija {
@@ -28,6 +31,21 @@ public class Institucija {
 
     @Column
     private String archyvoUzdarumas;
+
+    @ManyToMany(mappedBy = "institucija",cascade = CascadeType.ALL)
+    private List<Books> books;
+
+    public void addBook(Books book){
+        books.add(book);
+    }
+
+    public List<Books> getBooks() {
+        return books;
+    }
+
+    public void setBooks(List<Books> books) {
+        this.books = books;
+    }
 
     public void setKamSkirta(String kamSkirta) {
         this.kamSkirta = kamSkirta;

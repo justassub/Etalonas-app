@@ -1,6 +1,9 @@
 package lt.it.etalonas.Knygos;
 
+import lt.it.etalonas.KnyguInstitucijos.Institucija;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Books {
@@ -19,6 +22,11 @@ public class Books {
 
     @Column
     private  String image;
+
+    @ManyToMany
+    @JoinTable(name = "Institucija_Books",joinColumns = @JoinColumn(name = "Books_ID"),
+    inverseJoinColumns = @JoinColumn(name = "Institucija_ID"))
+    public List<Institucija> institucija;
 
     public Books() {
     }

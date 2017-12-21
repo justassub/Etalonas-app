@@ -11,7 +11,9 @@ const colorStyle={
 
 
 export class SingleBookComponent extends React.Component  {    
-  
+    removeBook=()=> {
+        axios.delete('http://localhost:8082/etalonas-app/books/delete/'+this.props.id)                
+    }
    
 render(){
     
